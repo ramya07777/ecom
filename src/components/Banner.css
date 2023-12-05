@@ -1,0 +1,139 @@
+.banner {
+  background-color: #211c24;
+  color: white;
+  width: 100%;
+  height: 65rem;
+  padding: 2rem;
+}
+.shop__link {
+  text-decoration: none;
+  color: black;
+}
+.banner__para {
+  color: #909090;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.banner__head {
+  font-weight: 200;
+  font-size: 10rem;
+}
+
+.span__text {
+  font-weight: 600;
+  font-size: 10rem;
+}
+.banner__banner {
+  color: #909090;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.banner__button {
+  background-color: #211c24;
+  color: white;
+  border: 1px solid #909090;
+  width: 20rem;
+  height: 6rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+.banner__funct {
+  margin-left: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media (max-width: 82em) {
+  .banner__head {
+    font-size: 5rem;
+  }
+  .span__text {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 69em) {
+  .banner__head {
+    font-size: 4rem;
+  }
+  .span__text {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 62em) {
+  .banner__funct {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 0;
+  }
+  .banner {
+    height: 100rem;
+  }
+  .banner__head {
+    font-size: 8rem;
+  }
+  .span__text {
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+  }
+  .banner__para {
+    font-size: 4rem;
+  }
+  .banner__banner {
+    font-size: 3.5rem;
+  }
+  .banner__button {
+    width: 25rem;
+    height: 8rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 50em) {
+  .banner {
+    height: 110rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .banner__img {
+    width: 45rem;
+  }
+  .banner__head {
+    font-size: 7rem;
+  }
+  .banner__para {
+    font-size: 3rem;
+  }
+  .banner__banner {
+    font-size: 2.2rem;
+  }
+  .span__text {
+    font-size: 7rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .banner__img {
+    width: 38rem;
+  }
+  .banner {
+    height: 95rem;
+  }
+}
+
+@media (max-width: 20em) {
+  .banner__img {
+    width: 32rem;
+  }
+  .banner {
+    height: 93rem;
+  }
+}

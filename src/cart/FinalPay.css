@@ -1,0 +1,48 @@
+.final {
+  color: #979797;
+  width: 100%;
+  height: 5rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cecece;
+  margin-bottom: 3rem;
+}
+.finalimg {
+  margin-bottom: 3rem;
+  width: 50%;
+}
+.final__card {
+  color: #979797;
+  width: 45%;
+  height: 5rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cecece;
+  margin-bottom: 3rem;
+}
+.final__final {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pay__link {
+  width: 100%;
+}
+.final__button {
+  height: 6rem;
+  width: 80%;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 5rem;
+}
+.final__back {
+  border: 1px solid black;
+  background-color: white;
+}
+.final__pay {
+  background-color: black;
+  border: none;
+  color: white;
+}

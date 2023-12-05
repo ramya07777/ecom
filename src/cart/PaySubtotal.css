@@ -1,0 +1,15 @@
+.pay__sub {
+  flex: 1;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.pay__tax {
+  flex: 1;
+  color: #545454;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.pay__price {
+  font-size: 1.5rem;
+}
